@@ -226,6 +226,17 @@ a.button-primary {
    border-bottom: 1px solid #ececec;
 }
 
+footer {
+   display: flex;
+   height: 91.19vh;
+   justify-content: center;
+   align-items: end;
+}
+
+footer p {
+   padding: 1.25rem;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1024px) {
