@@ -1,6 +1,10 @@
 :root {
    --primary-500: #594ee7;
+   --primary-600: #4239b9;
    --shadow-xs: 0px 0px 15px #00000014;
+   --nav-link: #667085;
+   --white: #ffffff;
+   --transition-05: all 0.5s ease-out;
 }
 
 * {
@@ -28,15 +32,20 @@ div#logo {
    display: flex;
 }
 
-ul.main-nav a {
-   color: #667085;
+.main-nav a {
+   color: var(--nav-link);
+   transition: var(--transition-05);
+}
+
+.main-nav a:hover {
+   color: var(--primary-500);
 }
 
 header.main-header {
    display: flex;
    align-items: center;
    gap: 2.5rem;
-   background-color: #ffffff;
+   background-color: var(--white);
    padding: 1.25rem 2.5rem;
    box-shadow: var(--shadow-xs);
    position: relative;
@@ -115,9 +124,14 @@ header.main-header .column:nth-child(2) {
    border-radius: 0.5rem;
 }
 
-a.button-primary {
-   background-color: #594ee7;
-   color: #fff;
+.button-primary {
+   background-color: var(--primary-500);
+   color: var(--white);
+   transition: var(--transition-05);
+}
+
+.button-primary:hover {
+   background-color: var(--primary-600);
 }
 
 .nav-menu-button span {
@@ -125,7 +139,7 @@ a.button-primary {
    background-color: #344054;
    height: 2px;
    width: 100%;
-   transition: all 0.5s ease-out;
+   transition: var(--transition-05);
    overflow: hidden;
 }
 
@@ -175,7 +189,7 @@ a.button-primary {
 .mobile-main-nav__link {
    display: flex;
    justify-content: space-between;
-   color: #667085;
+   color: var(--nav-link);
 }
 
 .mobile-main-nav__link:hover {
@@ -192,7 +206,7 @@ a.button-primary {
 
 .mobile-main-nav {
    padding-bottom: 1.25rem;
-   background-color: #fff;
+   background-color: var(--white);
    height: 0vh;
    display: flex;
    position: fixed;
@@ -203,7 +217,7 @@ a.button-primary {
    padding-top: 6rem;
    z-index: 1;
    transform: scaleY(0);
-   transition: all 0.5s ease-out;
+   transition: var(--transition-05);
 }
 
 .mobile-main-nav.active {
@@ -235,6 +249,7 @@ footer {
 
 footer p {
    padding: 1.25rem;
+   text-align: center;
 }
 
 /* Media Queries */
