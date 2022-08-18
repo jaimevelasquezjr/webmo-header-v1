@@ -1,22 +1,19 @@
-# WEBMO UI Header / Navigation Bar - Version 1
+# WEBMO UI Header / Navigation Bar - V1.0
 
 This WEBMO UI Header is created in HTML, CSS and a small JavaScript. I get the UI inspiration in [untitledui.com](https://www.untitledui.com/)
 
 ### Links
 
--  Live Site URL: [Add live site URL here](https://jongvelasquez.github.io/nft-preview-card-component/)
+-  [Live Site URL Here](https://jaimevelasquezjr.github.io/webmo-header-v1/)
 
 ### Built with
 
--  Semantic HTML5 markup
--  CSS custom properties
--  JavaScript
-
-### What I learned
-
-I learned using flexbox, css grid and JavaScript
+-  Web and Mobile Responsive
+-  Mobile main nav popup
+-  JavaScript onClick Event and CSS transform animation on Menu/Hamburger menu
+-  CSS Variables, Flex, and Grid
 
 ## Author
 
 -  My Website - [jaimevelasquezjr.com](https://jaimevelasquezjr.com/)
--  Twitter - [@jaimewebuxui](https://twitter.com/jaimewebuxui)
+-  Follow me on Twitter - [@jaimewebuxui](https://twitter.com/jaimewebuxui)
